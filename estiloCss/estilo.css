@@ -1,0 +1,803 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+strong {
+	color: #dbaf00;
+}
+
+header {
+	height: 100vh;
+}
+
+/*----------------------------------------- NAV Y ENLACES DEL INDEX DE INICIO --------------------------------*/
+
+nav {
+	width: 100%;
+	height: 70px;
+	font-size: 20px;
+	padding: 5px;
+	position: absolute;
+	font-weight: bold;
+}
+
+.enlaces {	
+	min-height: 80px;
+	padding-right: 40px;
+	width: 100%;
+	display: inline-flex;
+	justify-content: flex-end;
+}
+
+.enlaces a {
+	color: black;
+	min-width: 10px;
+	height: 15px;
+	margin: 20px 15px 5px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.enlaces a:hover {
+	transition: color 0.3s ease;
+	color: #999999
+}
+
+@media screen and (max-width: 500px) {
+	nav {
+		width: 100%;
+		height: 100px;
+		font-size: 10px;
+		padding: 5px;
+		position: absolute;
+		font-weight: bold;
+	}
+
+	.enlaces {	
+		min-height: 80px;
+		padding-right: 17px;
+		width: 100%;
+		display: inline-flex;
+		justify-content: flex-end;
+	}
+
+	.enlaces a {
+		color: black;
+		min-width: 10px;
+		height: 15px;
+		margin: 20px 15px 5px;
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+	}
+
+	.enlaces a:hover {
+		transition: color 0.3s ease;
+		color: #999999
+	}
+}
+
+
+/*---------------------- INDEX DE INCIO.------------------------*/
+
+.inicio {
+	z-index: 10;
+	width: 100%;
+	margin-top: 7%;
+	position: absolute;
+
+}
+
+.titulo {	
+	animation-duration: 2s;
+  animation-name: titulo;
+	color: #68960e;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 150px;
+	text-align: center;
+  font-family: 'Beau Rivage', cursive;
+}
+
+
+.inicio p {
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+	 font-family: 'Beau Rivage', cursive;
+	color: #68960e;
+	padding-right: 30%;
+	padding-left: 30%;
+	font-weight: bold;
+	animation-name: presentacion;
+	animation-duration: 1.3s;
+}
+
+.boton {
+	margin-top: 50PX;
+	margin-left: auto;
+   margin-right: auto; 
+	height: 57px;
+	width: 250px;
+	background-color: #68960e;
+	border-radius: 200px;
+	text-align: center;
+	padding-top: 13px;
+	box-shadow: 0 0 20px #6eb564;
+}
+
+.boton:hover {
+	background-color: #fcba03;
+	transition: background 0.3s ease;
+	
+}
+
+.boton a {	
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+	color: white;
+}
+
+
+.backgroundInicio {
+	background-image: url(imagenes/portadadefinitiva.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+@media screen and (max-width: 500px) {
+.inicio {
+	z-index: 10;
+	width: 100%;
+	margin-top: 120px;
+	padding: 10px;
+	position: absolute;
+}
+
+.titulo {	
+	color: #68960e;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 90px;
+	text-align: center;
+  font-family: 'Beau Rivage', cursive;
+}
+
+
+.inicio p {
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	color: #68960e;
+	padding-right: 30%;
+	padding-left: 30%;
+	font-weight: bold;
+	animation-name: presentacion;
+	animation-duration: 1.3s;
+}
+
+.boton {
+	margin-top: 30PX;
+	margin-left: auto;
+  margin-right: auto; 
+	height: 40px;
+	width: 100px;
+	background-color: #68960e;
+	border-radius: 200px;
+	box-shadow: 0 0 20px #6eb564;
+}
+
+.boton:hover {
+	background-color: #fcba03;
+}
+
+.boton a {	
+	margin: 0px auto;
+	font-weight: bold;
+	font-size: 10px;
+	text-decoration: none;
+	color: white;
+	justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.backgroundInicio {
+	background-image: url(imagenes/portadadefinitivaMOVIL.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+}
+
+
+/* ------- INDEX NOSOTROS ----------------------------------------------*/
+
+.backgroundNosotros {
+	background-image: url(imagenes/segundaPortada1.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.tituloContenidoNosotros {
+	color: #68960e;
+	z-index: 10;
+	width: 60%;
+	margin-top: 200px;
+	position: absolute;
+	margin-left: 40%;
+	text-align: center;
+}
+
+.tituloContenidoNosotros h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 100px;
+	text-align: center;
+	font-family: 'Beau Rivage', cursive;
+}
+
+.tituloContenidoNosotros p {
+	font-size: 20px;
+	text-align: center;
+	min-width: 100px;
+	min-height: 250px;
+	padding-right: 30%;
+	padding-left: 30%;
+	font-weight: bold;
+}
+
+
+@media screen and (max-width: 500px) {
+
+.tituloContenidoNosotros {
+	z-index: 10;
+	width: 100%;
+	margin-top: 86px;
+	padding: 10px;
+	position: absolute;
+	margin-left: 0;
+}
+
+.tituloContenidoNosotros h1 {
+	color: #68960e;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	width: 100%;
+	font-size: 60px;
+	text-align: center;
+  font-family: 'Beau Rivage', cursive;
+}
+
+.tituloContenidoNosotros p {
+	font-size: 10px;
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	color: #68960e;
+	padding: 15px;
+	font-weight: bold;
+	animation-name: presentacion;
+}
+
+.backgroundNosotros {
+	background-image: url(imagenes/portadamovilnosotros.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+}
+
+
+/*-------------------------- INDEX PEDIDOS --------------------*/
+
+.tituloContenidoPedidos h1 {
+	color: #68960e;
+	font-size: 100px;
+  font-family: 'Beau Rivage', cursive;
+	text-align: center;
+	width: 100%;
+	margin-top: 200px;
+	position: absolute;
+	justify-content: space-around;
+}
+
+.tiposAguacates {
+	display: inline-flex;
+	width: 100%;
+	color: black;
+	margin-top: 380px;
+	margin-bottom: 200px;
+	height: 700px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.primerAguacate {
+	width: 600px;
+	height: 700px;
+	text-align: center;
+	margin-right: 70px;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	padding: 50px;
+	flex-grow: 1; 
+	box-shadow: 0 0 20px #a8a8a8;
+    background-color: white;
+}
+
+
+.backgroundPedidos {
+	background-image: url(imagenes/pedidos.png);	
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: static;
+}
+
+@media screen and (max-width: 500px) {
+	.tituloContenidoPedidos h1 {
+		color: #68960e;
+		font-size: 60px;
+	    font-family: 'Beau Rivage', cursive;
+		text-align: center;
+		width: 100%;
+		margin-top: 95px;
+		position: absolute;
+		justify-content: space-around;
+	}
+
+	.tiposAguacates {
+		display: inline-flex;
+		width: 100%;
+		color: black;
+		margin-top: 220px;
+		margin-bottom: 80px;
+		height: 200px;
+	}
+
+	.primerAguacate {
+		background-color: white;
+		width: 300px;
+		height: 250px;
+		text-align: center;
+		margin-right: 70px;
+		margin-left: 70px;
+	    margin-bottom: 20px;	
+		padding: 2px;
+		transition: background 10s;
+		flex-grow: 1;
+		font-size: 15px;
+	}
+
+	.primerAguacate:hover {
+		transition: background 10s ease;
+		box-shadow: 0 0 20px #a8a8a8;
+		background-color: white;
+	}
+
+
+	.backgroundPedidos {
+		background-image: url(imagenes/pedidos.png);	
+		background-size: cover;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		position: static;
+	}
+}
+
+
+/* ---------------------------- BACKGROUND Y TITULO H3 DEL INDEX DE RECETAS --------*/
+
+.tituloContenidoRecetas {
+	z-index: 10;
+	width: 100%;
+	margin-top: 7%;
+	position: absolute;
+	padding-right: 32px 0;
+	text-align: center;
+}
+
+.tituloContenidoRecetas h1 {	
+	color: #68960e;
+	font-size: 100px;
+  font-family: 'Beau Rivage', cursive;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.recetaSi h3 {
+	color: #68960e;
+	 font-family: 'Beau Rivage', cursive;
+	margin-top: 50px;
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+}
+
+.recetaSi p {
+	color: #68960e;
+	margin-top: 50px;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.backgroundRecetas {
+	background-image: url(imagenes/portada.png);
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: static;
+}
+
+.recetario {
+	background-image: url(imagenes/recetario.png);
+	background-size: cover;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0 0 20px #a8a8a8;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding: 20px 20px 20px;
+	width: 80%;
+	height: 600px;
+	display: inline-flex;
+	text-align: center;
+}
+
+.recetarioEscrito {
+	margin-right: 100px;
+}
+
+@media screen and (max-width: 500px) {
+.tituloContenidoRecetas {
+	z-index: 10;
+	width: 100%;
+	margin-top: 80px;
+	position: absolute;
+	padding-right: 32px 0;
+	text-align: center;
+}
+
+.tituloContenidoRecetas h1 {	
+	color: #68960e;
+	font-size: 60px;
+  font-family: 'Beau Rivage', cursive;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.recetario {
+	background-image: url(imagenes/recetario.png);
+	background-size: cover;
+	border: 1px solid #cfcfcf;
+	box-shadow: 0 0 20px #a8a8a8;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	padding: 20px 20px 20px;
+	width: 100%;
+	height: 600px;
+	display: block;
+	text-align: center;
+}
+
+.recetaSi h3 {
+	color: #68960e;
+	 font-family: 'Beau Rivage', cursive;
+	margin-top: 50px;
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+}
+
+.recetaSi p {
+	color: #68960e;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	width: 100%;
+	font-size: 15px;
+	text-align: center;
+}
+
+.backgroundRecetas {
+	background-image: url(imagenes/portada.png);
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: static;
+}
+}
+
+/*------------ BACKGROUND DEL INDEX DE CONTACTO ------*/
+
+.backgroundContacto {
+	background-image: url(imagenes/portadaContacto.png);
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: static;
+}
+
+/*----------- FORMULARIO DE CONTACTO -------*/
+
+.tituloContenido {
+	color: black;
+	z-index: 10;
+	width: 100%;
+	margin-top: 50px;
+	position: absolute;
+	text-align: center;
+}
+
+.tituloContenido h1 {
+	color: #68960e;
+	font-size: 100px;
+  font-family: 'Beau Rivage', cursive;
+	text-align: center;
+	width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+.tituloContenido {
+	z-index: 10;
+	width: 100%;
+	margin-top: 80px;
+	position: absolute;
+	padding-right: 32px 0;
+	text-align: center;
+}
+
+.tituloContenido h1 {	
+	color: #68960e;
+	font-size: 60px;
+  font-family: 'Beau Rivage', cursive;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+}
+
+.grid-contacto {
+	padding: 40px;
+  margin-top: 120px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	grid-template-rows: repeat(3, 500px);
+	grid-template-areas: 
+	"contacto1 contacto1 contacto1 contacto1"
+	"contacto2 contacto2 contacto3 contacto3"
+	"contacto4 contacto4 contacto4 contacto4"
+	;
+}
+
+.grid-contacto div {
+	margin: 10px;
+}
+
+.grid-contacto h3 {
+	margin: auto;
+}
+
+.contacto1 {
+	padding: 40px;
+	display: block;
+	grid-area: contacto1;
+  background: white;
+}	
+
+input {
+	border: 0;
+	outline: 0;
+	padding: 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	appearance: none;
+	border: 1px solid #cfcfcf;
+}
+
+label {
+	display: block;
+	margin-bottom: 24px;
+	width: 100%;
+}
+
+button {
+	margin-top: 30px;
+	margin-left: auto;
+   margin-right: auto; 
+	height: 50px;
+	width: 200px;
+	background-color: black;
+	border-radius: 200px;
+	text-align: center;
+	padding-top: 13px;
+	color: white;
+	font-weight: bold;
+	padding-top: 5px;	
+	transition: background 0.2s ease;
+}
+
+button:hover {
+	background-color: #68960e;
+	box-shadow: 0 0 20px #a8a8a8;
+}
+
+textarea {
+	outline: 0;
+	padding: 16px;
+	margin-top: 30px;
+	margin-right: 8px;
+	appearance: none;
+	border-color: #cfcfcf;
+	resize: none;
+	width: 400px;
+	height: 100px;
+}
+
+
+.contacto2 {
+	grid-area: contacto2;
+	background-color: white;
+	padding: 75px;
+}
+
+.contacto2 h3 {
+	padding: 20px;
+}
+
+.contacto3 {
+	grid-area: contacto3;
+	background-color: white;
+	padding: 80px;
+}
+
+.contacto4 {
+	grid-area: contacto4;
+	background-color: white;
+	padding: 80px;
+}
+
+@media screen and (max-width: 768px) {
+	.grid-contacto {
+		padding: 40px;
+	  margin-top: -17px;
+		text-align: center;
+		display: grid;
+		grid-template-columns: repeat(2, 50%);
+		grid-template-rows: repeat(4, 300px);
+		grid-template-areas: 
+		"contacto1 contacto1"
+		"contacto2 contacto2"
+		"contacto3 contacto3"
+		"contacto4 contacto4"
+		;
+	}
+
+.contacto1 {
+  grid-area: contacto1;
+  background:  white ;
+  display: block;
+  padding: 23px;
+}	
+ 
+input {
+	border: 0;
+	outline: 0;
+	padding: 6px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	appearance: none;
+	border: 1px solid #cfcfcf;
+}
+
+label {
+	display: block;
+	margin-bottom: 0px;
+	width: 100%;
+}
+
+button {
+	margin-top: 4px;
+	margin-left: auto;
+  margin-right: auto; 
+	height: 30px;
+	width: 150px;
+	background-color: black;
+	border-radius: 200px;
+	text-align: center;
+	padding-top: 5px;
+	color: white;
+	font-weight: bold;
+	padding-top: 5px;	
+	transition: background 0.2s ease;
+}
+
+button:hover {
+	background-color: #68960e;
+	box-shadow: 0 0 20px #a8a8a8;
+}
+
+textarea {
+	outline: 0;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: -2px;
+	appearance: none;
+	border-color: #cfcfcf;
+	resize: none;
+	width: 200px;
+	height: 90px;
+}
+
+
+.contacto2 {
+	padding:  30px;
+	grid-area: contacto2;
+	background-color:  white;
+}
+
+.contacto2 h3 {
+	font-size: 15px;
+}
+
+.contacto3 {
+	grid-area: contacto3;
+	background-color:  white;
+}
+
+.contacto4 {
+	grid-area: contacto4;
+	background-color:  white;
+}
+
+}
+
+/* ------ PIE DE PÁGINA -----*/
+
+footer {
+	background-color: white;
+	height: 3%;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	opacity: 0.7;
+	display: inline-flex;
+	padding-top: 3px;
+	justify-content: right;
+} 
+
+h5 {
+	color: black;
+	margin-right: 5px;
+	width: 100%;
+	text-align: right;
+}

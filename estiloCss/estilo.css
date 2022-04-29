@@ -92,7 +92,7 @@ nav {
 .titulo {	
 	animation-duration: 2s;
   animation-name: titulo;
-	color: #68960e;
+	color: black;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	width: 100%;

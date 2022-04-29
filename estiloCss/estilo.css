@@ -122,10 +122,10 @@ nav {
 	height: 57px;
 	width: 250px;
 	background-color: #68960e;
-	border-radius: 200px;
+	border-radius: 5px;
 	text-align: center;
 	padding-top: 13px;
-	box-shadow: 0 0 20px #6eb564;
+	box-shadow: 0 0 5px #6eb564;
 }
 
 .boton:hover {
@@ -227,7 +227,7 @@ nav {
 
 
 .tituloContenidoNosotros {
-	color: #68960e;
+	color: black;
 	z-index: 10;
 	width: 60%;
 	margin-top: 200px;
@@ -268,7 +268,7 @@ nav {
 }
 
 .tituloContenidoNosotros h1 {
-	color: #68960e;
+	color: black;
 	margin-top: 0px;
 	margin-bottom: 20px;
 	width: 100%;
@@ -299,7 +299,7 @@ nav {
 /*-------------------------- INDEX PEDIDOS --------------------*/
 
 .tituloContenidoPedidos h1 {
-	color: #68960e;
+	color: black;
 	font-size: 100px;
   font-family: 'Beau Rivage', cursive;
 	text-align: center;
@@ -348,7 +348,7 @@ nav {
 
 @media screen and (max-width: 500px) {
 	.tituloContenidoPedidos h1 {
-		color: #68960e;
+		color: black;
 		font-size: 60px;
 	    font-family: 'Beau Rivage', cursive;
 		text-align: center;
@@ -413,7 +413,7 @@ nav {
 }
 
 .tituloContenidoRecetas h1 {	
-	color: #68960e;
+	color: black;
 	font-size: 100px;
   font-family: 'Beau Rivage', cursive;
 	margin-top: 20px;
@@ -479,7 +479,7 @@ nav {
 }
 
 .tituloContenidoRecetas h1 {	
-	color: #68960e;
+	color: black;
 	font-size: 60px;
   font-family: 'Beau Rivage', cursive;
 	margin-top: 20px;
@@ -557,7 +557,7 @@ nav {
 }
 
 .tituloContenido h1 {
-	color: #68960e;
+	color: black;
 	font-size: 100px;
   font-family: 'Beau Rivage', cursive;
 	text-align: center;
